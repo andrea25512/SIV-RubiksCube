@@ -15,5 +15,5 @@ source rubiks_cube_venv/bin/activate # Linux/Mac
 
 Install the required python modules:
 ```bash
-pip -install -r requirements.txt
+pip install -r requirements.txt
 ```
