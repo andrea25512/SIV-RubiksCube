@@ -4,7 +4,8 @@ Automatic color detection of the faces of 3x3 rubik's cubes.
 The project is implemented using Jupyter Notebooks (`ipynb`), so a recent installation of Python is required.
 
 There are two versions of this project:
-- `classic_cube.ipynb` works with standard rubik's cubes, e.g.: <img src="images/real_cube1.jpg" width="200"/>
+- `classic_cube.ipynb` works with standard rubik's cubes, e.g.:
+<img src="images/real_cube1.jpg" width="200"/>
 
 - `borderless.ipynb` works with stickerless cubes, e.g.:
 <img src="Classification2/border1.jpeg" width="200"/>
