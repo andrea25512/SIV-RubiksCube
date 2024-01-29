@@ -9,6 +9,7 @@ There are two versions of this project:
 
 - `borderless.ipynb` works with stickerless cubes, e.g.:
 <img src="Classification2/border1.jpeg" width="200"/>
+
 ## Setting up the virtual environment
 
 Create a python virtual environment:
