@@ -12,6 +12,10 @@ There are two versions of this project:
 
 ## Setting up the virtual environment
 
+VSCode is assumed to be the code editor of choice.
+
+### On Windows
+
 Create a python virtual environment:
 ```bash
 python -m venv rubiks_cube_venv
@@ -19,14 +23,41 @@ python -m venv rubiks_cube_venv
 
 Activate the virtual environment:
 ```bash
-source rubiks_cube_venv/Scripts/activate # Windows
-source rubiks_cube_venv/bin/activate # Linux/Mac
+source rubiks_cube_venv/Scripts/activate
 ```
 
 Install the required python modules:
 ```bash
 pip install -r requirements.txt
 ```
-VSCode is assumed to be the code editor of choice.
 
-In VSCode, select the kernel you just created (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook) how to do it).
+
+### On Linux
+Install venv package for python:
+```bash
+sudo apt install python3-venv -y
+```
+
+Create a python virtual environment:
+```bash
+python3 -m venv rubiks_cube_venv
+```
+
+Activate the virtual environment:
+```bash
+source rubiks_cube_venv/bin/activate
+```
+
+Install the required python modules:
+```bash
+pip install -r requirements.txt
+```
+
+## Running the notebook
+
+To execute the notebook:
+- open it in VSCode
+- select the kernel you just created (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_create-or-open-a-jupyter-notebook) how to do it)
+- set the variable `path_to_image` to the path of the image you want to analyze
+- run all the cells (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_running-cells) how to do it)
+
