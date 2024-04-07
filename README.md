@@ -102,4 +102,4 @@ For the `classic_cube.ipynb` version:
 - In depth documentation and references (see PDF [here](classic_cube_documentation.pdf))
 
 For the `borderless.ipynb` version:
-- In depth documentation and references (see PDF [here]([borderless_documentation.pdf))
+- In depth documentation and references (see PDF [here](borderless_documentation.pdf))
