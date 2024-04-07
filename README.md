@@ -95,3 +95,11 @@ To execute the notebook:
 - set the variable `path_to_image` to the path of the image you want to analyze
 - run all the cells (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_running-cells) how to do it)
 
+## Documentation
+
+For the `classic_cube.ipynb` version:
+- A step-by-step presentation of the inner workings (see PowerPoint [here](classic_cube_presentation.pdf))
+- In depth documentation and references (see PDF [here](classic_cube_documentation.pdf))
+
+For the `borderless.ipynb` version:
+- In depth documentation and references (see PDF [here]([borderless_documentation.pdf)))
