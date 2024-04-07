@@ -5,7 +5,12 @@ The project is implemented using Jupyter Notebooks (`ipynb`), so a recent instal
 
 There are two versions of this project:
 - `classic_cube.ipynb` works with standard rubik's cubes, e.g.:
-<img src="Classification/real_cube1.jpg" width="200"/>
+Solarized dark             |  Solarized Ocean
+<p float="left">
+  <img path="Classification/real_cube8.jpg" width="200" />
+  <img path="Classification/Output/real_cube8_id.png" width="200" />
+</p>  
+
 
 - `borderless.ipynb` works with stickerless cubes, e.g.:
 <img src="Classification2/border1.jpeg" width="200"/>
