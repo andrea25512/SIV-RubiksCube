@@ -3,17 +3,46 @@ Automatic color detection of the faces of 3x3 rubik's cubes.
 
 The project is implemented using Jupyter Notebooks (`ipynb`), so a recent installation of Python is required.
 
+<style>
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: none;
+}
+blockquote {
+    border-left: none;
+    padding-left: 10px;
+}
+</style>
+
 There are two versions of this project:
 - `classic_cube.ipynb` works with standard rubik's cubes, e.g.:
-Solarized dark             |  Solarized Ocean
-<p float="left">
-  <img path="Classification/real_cube8.jpg" width="200" />
-  <img path="Classification/Output/real_cube8_id.png" width="200" />
-</p>  
-
+<table>
+<thead>
+  <tr>
+    <td><img src="Classification/real_cube3.jpg" width="200" /></td>
+    <td>→</td>
+    <td><img src="Classification/Output/real_cube3_id.png" width="200" /></td>
+    <td>→</td>
+    <td><img src="Classification/Output/real_cube3_out.png" width="600" /></td>
+  </tr>
+</thead>
+</table>  
 
 - `borderless.ipynb` works with stickerless cubes, e.g.:
-<img src="Classification2/border1.jpeg" width="200"/>
+<table>
+<thead>
+  <tr>
+    <td><img src="Classification2/border1.jpeg" width="200"/></td>
+    <td>→</td>
+    <td><img src="Classification2/Output/border1_id.png" width="200" /></td>
+    <td>→</td>
+    <td><img src="Classification2/Output/border1_out.png" width="600" /></td>
+  </tr>
+</thead>
+</table>
+
 
 ## Setting up the virtual environment
 
